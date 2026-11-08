@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "oreseed",
+  "version": "${version}",
+  "name": "Ore Seed Finder",
+  "description": "Singleplayer: scans around you and lists deepslate coal ore and deepslate emerald ore positions for your world seed.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.oreseed.OreSeedMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
